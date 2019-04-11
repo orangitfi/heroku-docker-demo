@@ -4,7 +4,9 @@ Build docker image
     docker build -t orangit/hd_demo .
 
 Run docker image
+    
     docker run --rm -it -p 3000:3000 orangit/hd_demo
+
 --rm removes the image as soon as the docker command exits
 
     heroku plugins:install @heroku-cli/plugin-container-registry
